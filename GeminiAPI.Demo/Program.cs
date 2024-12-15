@@ -11,7 +11,8 @@ public static class Program {
 	static string APIKey = "XXXXXXXXXXXX-AAAAAAAAAAAAAAAAAAAAAAAAAA";
 
 	static async Task Main() {
-		HttpClient.DefaultProxy = new WebProxy("http://127.0.0.1:7890");
+		// set proxy
+		// HttpClient.DefaultProxy = new WebProxy("http://x.x.x:xxx");
 		string userMessage = "Print Hello World with C#";
 		await GeminiAsync(userMessage);
 	}
