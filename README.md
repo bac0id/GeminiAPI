@@ -2,7 +2,7 @@
 Access Gemini chat with C#.
 
 # Usage
-```csharp
+```c#
 string userMessage = "Print Hello World with C#";
 
 // build http request content json
